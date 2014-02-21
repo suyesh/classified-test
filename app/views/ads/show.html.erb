@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @ad.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @ad.description %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @ad.image_url %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @ad.price %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @ad.quantity %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @ad.condition %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @ad.category %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @ad.location %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @ad.user %>
+</p>
+
+<%= link_to 'Edit', edit_ad_path(@ad) %> |
+<%= link_to 'Back', ads_path %>
